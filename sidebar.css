@@ -1,12 +1,9 @@
 .sidebar{
-    position:fixed;
-    left:850px;
-    top:110px;
-    margin-left:20px;
     display:flex;
     flex-direction:column;
     justify-content: space-between;
-    width:350px;
+    width:31.4%;
+    margin-left:28px;
     height:450px;
 
 }.user-profile{

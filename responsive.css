@@ -1,0 +1,9 @@
+@media(max-width:935px){
+    .sidebar{
+        width:0%;
+        display:none;
+    }
+    .page-posts{
+        width:100%;
+    }
+}
