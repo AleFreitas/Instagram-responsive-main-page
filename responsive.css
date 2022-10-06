@@ -1,9 +1,14 @@
 @media(max-width:935px){
-    .sidebar{
+    .header{
+        width:100%;
+    }.sidebar{
         width:0%;
         display:none;
-    }
-    .page-posts{
+    }.page{
+        display: flex;
+        justify-content: center;
         width:100%;
+    }.page-posts{
+        margin:auto;
     }
 }
