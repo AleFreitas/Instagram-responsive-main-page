@@ -24,6 +24,31 @@
     border:1px solid #DBDBDB;
     border-radius:6px;
     background-color:#FFFFFF;
+    display:flex;
+    overflow:hidden;
+}.stories > div{
+    margin-left:14px;
+    margin-top:15px;
+    min-width:66px;
+    height:86px;
+    position:relative;
+}.stories > div p{
+    margin-top:68px;
+    margin-left:12px
+}.back-image{
+    width:66px;
+    height:66px;
+    position:absolute;
+    top:0px;
+    left:2px;
+    border-radius:50%;
+}.front-image{
+    width:56px;
+    height:56px;
+    position:absolute;
+    top:5px;
+    left:7px;
+    border-radius:50%;
 }.post{
     margin-top:20px;
     display:flex;
