@@ -1,12 +1,15 @@
 .sidebar{
+    position:fixed;
+    top:82px;
+    right:40%;
+    left:60%;
     display:flex;
     flex-direction:column;
     justify-content: space-between;
-    width:31.4%;
+    width:293px;
     margin-left:28px;
     margin-top:20px;
     height:450px;
-
 }.user-profile{
     display:flex;    
 }.user-profile a img{
