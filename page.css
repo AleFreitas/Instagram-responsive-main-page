@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+}.body{
+    overflow:hidden;
 }
 .page-back{
     margin-top:50px;
@@ -134,4 +136,6 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
+}.bottom-menu{
+    display:none;
 }
