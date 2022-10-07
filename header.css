@@ -6,6 +6,9 @@
     width:100%;
     background-color:#FFFFFF;
     border-bottom:1px solid #d3d1d1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .header{
     width:935px;
