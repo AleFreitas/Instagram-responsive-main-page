@@ -1,5 +1,6 @@
 .header-back{
     position:fixed;
+    z-index:2;
     top:0;
     left:0;
     width:100%;
@@ -25,12 +26,11 @@
 }.home img{
     width:103px;
     height:31px;
-}.home a{
-    text-decoration:none;
-    color:black;
 }.home-icon{
     width:22px;
     height:22px;
+    text-decoration:none;
+    color:black;
 }.header input{
     background-color:#FAFAFA;
     border-style:solid;
@@ -51,10 +51,25 @@
     align-items:center;
     width:140px;
     height:30px;
-}.header-items a{
-    text-decoration:none;
-    color:black;
 }.header-icon{
     width:20px;
     height:20px;
+    text-decoration:none;
+    color:black;
+}.mobile-header{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:2;
+    width:100%;
+    display:none;
+    background-color:#FFFFFF;
+    border-bottom:1px solid #d3d1d1;
+}.mobile-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:95%;
+    margin-top:7px;
+    margin-bottom:5px;
 }

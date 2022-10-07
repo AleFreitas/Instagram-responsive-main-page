@@ -12,3 +12,14 @@
         margin:auto;
     }
 }
+/*MOBILE*/
+@media(max-width:614px){
+    .mobile-header{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-back{
+        display:none;
+    }
+}

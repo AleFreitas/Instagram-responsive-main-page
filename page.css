@@ -26,29 +26,41 @@
     background-color:#FFFFFF;
     display:flex;
     overflow:hidden;
-}.stories > div{
-    margin-left:14px;
-    margin-top:15px;
+}.stories-item{
+    margin-left:15px;
+    margin-top:14px;
     min-width:66px;
     height:86px;
+}.stories-item div{
+    width:66px;
+    height:76.7%;
+    margin-bottom:0px;
     position:relative;
-}.stories > div p{
-    margin-top:68px;
-    margin-left:12px
 }.back-image{
     width:66px;
     height:66px;
     position:absolute;
     top:0px;
-    left:2px;
+    left:0px;
     border-radius:50%;
 }.front-image{
     width:56px;
     height:56px;
     position:absolute;
     top:5px;
-    left:7px;
+    left:5px;
     border-radius:50%;
+}.stories-item p{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:0px;
+    width:66px;
+    height:23.3%;
+    font-family:Roboto;
+    font-weight:400;
+    font-size:11px;
+    line-height:14.06px;
 }.post{
     margin-top:20px;
     display:flex;
