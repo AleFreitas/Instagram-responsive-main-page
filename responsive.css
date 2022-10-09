@@ -1,6 +1,8 @@
 @media(max-width:1231px){
     .sidebar{
         left:65%
+    }.arrow{
+        left:90%;
     }
 }
 @media(max-width:935px){
