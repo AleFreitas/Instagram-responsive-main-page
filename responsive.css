@@ -78,7 +78,7 @@
         font-size:9px;
         line-height:14.06px;
         margin:auto;
-    }.post,.video-post{
+    }.post,.video-post1,.video-post2{
         height:520px;
         display:block;
         margin:0px;
@@ -87,8 +87,12 @@
         border-radius:0px;
         border-top:1px solid #DBDBDB;
         border-bottom:1px solid #DBDBDB;
-    }.video-post{
-        height:420px;
+    }.video-post1{
+        margin-top:0px;
+        height:410px;
+    }.video-post2{
+        height:700px;
+        height:360px;
     }.top-post{
         border-bottom:1px solid #DBDBDB;
         margin:0px;
@@ -102,9 +106,12 @@
     }.post-image{
         width:100%;
         height:400px;
-    }.post-video{
+    }.post-video1{
         width:100%;
         height:300px;
+    }.post-video2{
+        width:100%;
+        height:241px;
     }.bottom-post{
         width:100%;
         margin:0px;
