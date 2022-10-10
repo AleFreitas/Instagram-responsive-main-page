@@ -127,5 +127,7 @@
         display:flex;
         justify-content: space-between;
         align-items: center;
+    }.bottom-menu-back{
+        display:block;
     }
 }
