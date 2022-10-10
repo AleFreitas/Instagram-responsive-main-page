@@ -21,7 +21,13 @@
 }
 /*MOBILE*/
 @media(max-width:614px){
-    .mobile-header{
+    .arrow{
+        display:none;
+    }
+    .mobile-header-back{
+        display:flex;
+    }.mobile-header{
+        position:fixed;
         display:flex;
         justify-content: center;
         align-items: center;
@@ -43,7 +49,7 @@
         border-radius:0px;
         width:100%;
         height:100%;
-        background-color: #FFFFFF;
+        background-color: #ffffff00;
     }.stories-item{
         margin-left:10px;
         margin-top:14px;

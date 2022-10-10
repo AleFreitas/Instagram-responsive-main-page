@@ -59,6 +59,10 @@
     height:20px;
     text-decoration:none;
     color:black;
+}.mobile-header-back{
+    display:none;
+    width:100%;
+    height:35px;
 }.mobile-header{
     top:0;
     left:0;
@@ -66,6 +70,7 @@
     display:none;
     background-color:#FFFFFF;
     border-bottom:1px solid #d3d1d1;
+    z-index:3;
 }.mobile-menu{
     display:flex;
     justify-content: space-between;
