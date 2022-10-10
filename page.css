@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }.body{
     overflow-y:hidden;
+}.bold{
+    font-weight:bold;
 }
 .page-back{
     margin-top:50px;
@@ -156,5 +158,7 @@
     font-weight: 500;
     line-height: 16px;
 }.bottom-menu{
+    display:none;
+}.bottom-menu-back{
     display:none;
 }
