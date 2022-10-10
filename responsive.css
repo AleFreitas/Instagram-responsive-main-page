@@ -72,8 +72,6 @@
         font-size:9px;
         line-height:14.06px;
         margin:auto;
-    }.posts{
-        margin:0px;
     }.post{
         height:520px;
         display:block;
@@ -101,12 +99,11 @@
         height:400px;
     }.bottom-post{
         width:100%;
-        height:100%;
         margin:0px;
         position:relative;
     }.bottom-info{
         position:absolute;
-        top:16px;
+        top:30px;
         left:0px;
     }.bottom-info p{
         font-size:12px;
