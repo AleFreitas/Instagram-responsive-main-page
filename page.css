@@ -77,7 +77,7 @@
     font-weight:400;
     font-size:11px;
     line-height:14.06px;
-}.post,.video-post{
+}.post,.video-post1,.video-post2{
     margin-top:20px;
     display:flex;
     flex-direction:column;
@@ -86,8 +86,10 @@
     background-color: #FFFFFF;
     border:1px solid #DBDBDB;
     border-radius: 6px;;
-}.video-post{
-    height:620px;
+}.video-post1{
+    height:610px;
+}.video-post2{
+    height:490px;
 }.top-post{
     height:61px;
     display:flex;
@@ -125,8 +127,11 @@
 }.post-image{
     height: 614px;
     width: 100%;
-}.post-video{
-    height: 500px;
+}.post-video1{
+    height: 490px;
+    width: 100%;
+}.post-video2{
+    height: 350px;
     width: 100%;
 }.bottom-post{
     margin-top:5px;
