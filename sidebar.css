@@ -30,12 +30,12 @@
 }.user-profile div a{
     font-size: 14px;
     font-weight: 500;
-    line-height: 2px;
+    line-height: 14px;
     color:#262626;
 }.user-profile div p{
     font-size: 14px;
     font-weight: 300;
-    line-height: 2px;
+    line-height: 14px;
     color:#8E8E8E;
 }.suggestion-menu{
     display:flex;
@@ -76,12 +76,12 @@
 }.suggested-profile div a{
     font-size: 14px;
     font-weight: 500;
-    line-height: 2px;
+    line-height: 14px;
     color:#262626;
 }.suggested-profile div p{
     font-size: 12px;
     font-weight: 400;
-    line-height: 2px;
+    line-height: 12px;
     color:#8E8E8E;
 }.follow a{
     text-decoration: none;
