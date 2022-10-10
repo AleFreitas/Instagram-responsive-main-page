@@ -72,7 +72,7 @@
         font-size:9px;
         line-height:14.06px;
         margin:auto;
-    }.post{
+    }.post,.video-post{
         height:520px;
         display:block;
         margin:0px;
@@ -81,6 +81,8 @@
         border-radius:0px;
         border-top:1px solid #DBDBDB;
         border-bottom:1px solid #DBDBDB;
+    }.video-post{
+        height:420px;
     }.top-post{
         border-bottom:1px solid #DBDBDB;
         margin:0px;
@@ -96,7 +98,7 @@
         height:400px;
     }.post-video{
         width:100%;
-        height:400px;
+        height:300px;
     }.bottom-post{
         width:100%;
         margin:0px;
@@ -117,6 +119,9 @@
         display:flex;
         justify-content: center;
         align-items: center;
+    }.bottom-menu-back{
+        height:40px;
+        margin-top:-30px;
     }.bottom-menu div{
         width:95%;
         display:flex;
